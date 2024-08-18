@@ -24,26 +24,27 @@ public class ShipmentOperation {
 		
 		switch(choice) {
 			case "create":sd.createShipment();
-							break;
+					break;
 			case "show": sd.displayAllShipments();
-							break;
+					break;
 			case "insert": sd.insertShipment();
-							break;
+					break;
 			case "inprocess": sd.displayInporcessShipments();
-							break;
+					break;
 			case "delete":sd.deleteRejectedShipments();
-							break;
+					break;
 			case "search" :sd.searchShipmentByID();
-							break;
+					break;
 			case "order" :sd.shipmentOrderByDate();
-							break;
+					break;
 			case "name" :sd.ShipmentNameStartWith();
-							break;
+					break;
 			case "amount":sd. ShipmentAmount();
-							break;
+					break;
 			case "update":sd.ShipementUpdateStatus();
-							break;
+					break;
 			case "exit":System.exit(0);
+					break;
 			default: System.out.println("INVALID CHOICE");
 			}
 		}
